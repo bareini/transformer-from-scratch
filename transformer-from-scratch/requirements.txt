@@ -1,0 +1,15 @@
+# Weeks 1-4: from-scratch work (Colab has torch/numpy/matplotlib preinstalled)
+torch>=2.3
+numpy
+matplotlib
+tqdm
+
+# Week 4: experiment tracking
+wandb
+
+# Weeks 5-6: LoRA / QLoRA fine-tuning
+transformers
+datasets
+peft
+accelerate
+bitsandbytes   # 4-bit quantization for QLoRA (needs an NVIDIA GPU)
